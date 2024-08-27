@@ -1,7 +1,7 @@
 import torch
 from dataset.util import data_prefetcher_two,clg_loss,setup_seed,Eval,Eval2
 from myutils.utils import caleval
-from mymodel.new_text_hbp import Model
+from mymodel.MST import Model
 import dataset.dataset_profile as dp
 from torch.utils.data import DataLoader
 import numpy as np
